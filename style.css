@@ -16,7 +16,7 @@ body {
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  margin: 1.5em;
+  margin: 2em;
   padding: 1em;
   border-radius: 15px;
   max-width: 325px;
@@ -47,11 +47,11 @@ body {
   font-size: 1.2em;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  margin-block: .2em;
+  margin-block: 0.2em;
 }
 
 .text-container p {
-    font-size: .8em;
+  font-size: 0.8em;
   font-weight: 400;
   color: hsl(216, 15%, 48%);
 }
