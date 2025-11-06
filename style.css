@@ -6,6 +6,7 @@
 
 body {
   font-family: Outfit, sans-serif;
+  font-size: 15px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -16,10 +17,10 @@ body {
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  margin: 2em;
+  margin: 1.5em;
   padding: 1em;
-  border-radius: 15px;
-  max-width: 325px;
+  border-radius: 16px;
+  max-width: 320px;
 }
 
 .card {
@@ -27,6 +28,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-block-end: 1em;
 }
 
 .img-container > img {
@@ -40,18 +42,19 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0.5em 1em;
+  margin: 0.3em 0.4em;
 }
 
 .text-container > h1 {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.1em;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  margin-block: 0.2em;
 }
 
 .text-container p {
-  font-size: 0.8em;
+  margin: 0.2em 0.5em;
+  line-height: 1.4em;
   font-weight: 400;
   color: hsl(216, 15%, 48%);
 }
